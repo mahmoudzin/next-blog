@@ -6,8 +6,6 @@ import Layout from "../components/Layout";
 export default function Home({ allPostsData }) {
   return (
     <Layout home={true}>
-      <Link href="/posts/first-post">First Post</Link>
-
       {/* Add this <section> tag below the existing <section> tag */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
